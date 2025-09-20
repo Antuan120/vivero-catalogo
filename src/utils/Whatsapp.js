@@ -2,7 +2,7 @@ import { price } from "./format.js";
 
 export function buildWhatsappLink({ phone, items, total }) {
   const lines = [
-    "Hola 👋, quiero hacer un pedido:",
+    "Hola 👋, quiero hacer un pedidooo:",
     "",
     ...items.map(
       (it) =>
