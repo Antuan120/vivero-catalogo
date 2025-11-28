@@ -25,7 +25,6 @@ export default function PlantCard({ p, onOpen }) {
           <Badge>{p.tipo}</Badge>
           <Badge>☀️ {p.luz}</Badge>
           <Badge>💧 {p.riego}</Badge>
-          <Badge>📦 {p.stock} uds</Badge>
         </div>
 
         <div className="mt-4 flex items-center gap-2">

@@ -7,7 +7,7 @@ const plants = [
     "luz": "Alta",
     "riego": "Bajo",
     "descripcion": "Suculenta medicinal, muy resistente. Ideal para interior luminoso.",
-    "img": "/images/cactuspequeño.png"
+    "img": "/images/cactuspequeño.jpeg"
   },
   {
     id: "p2",
@@ -17,7 +17,7 @@ const plants = [
     "luz": "Alta",
     "riego": "Moderado",
     "descripcion": "Hojas delicadas, evita manipulaciones fuertes. Ideal para interiores cálidos.",
-    "img": "/images/suculentajaspeada.png"
+    "img": "/images/suculentajaspeada.jpeg"
   },
   {
     id: "p3",
@@ -27,7 +27,7 @@ const plants = [
     "luz": "Alta",
     "riego": "Moderado",
     "descripcion": "Planta de flores rojas y amarillas. Ideal para jardines, florece casi todo el año.",
-    "img": "/images/ixora.png"
+    "img": "/images/ixora.jpg"
   },
   {
     id: "p4",
@@ -37,7 +37,7 @@ const plants = [
     "luz": "Media",
     "riego": "Moderado",
     "descripcion": "Planta con hojas aterciopeladas. Ideal en interiores con luz indirecta brillante.",
-    "img": "/images/episcia.png"
+    "img": "/images/episcia.jpeg"
   },
   {
     id: "p5",
@@ -47,7 +47,7 @@ const plants = [
     "luz": "Alta",
     "riego": "Bajo",
     "descripcion": "Flor resistente que tolera sequías, ideal para exteriores soleados.",
-    "img": "/images/portulaca.png"
+    "img": "/images/portulaca.jpeg"
   },
   {
     id: "p6",
@@ -67,7 +67,7 @@ const plants = [
     "luz": "Alta",
     "riego": "Moderado",
     "descripcion": "Planta resistente de interior, tolera poca luz.",
-    "img": "/images/dracena.png"
+    "img": "/images/dracena.avif"
   },
   {
     id: "p8",
@@ -77,7 +77,7 @@ const plants = [
     "luz": "Baja",
     "riego": "Alto",
     "descripcion": "Planta ideal para ambientes húmedos con luz indirecta.",
-    "img": "/images/Fitonia.png"
+    "img": "/images/Fitonia.jpg"
   },
   {
     id: "p9",
@@ -87,7 +87,7 @@ const plants = [
     "luz": "Baja",
     "riego": "Moderado",
     "descripcion": "Planta de interior, ideal para zonas con poca luz y alta humedad.",
-    "img": "/images/aglaonema.png"
+    "img": "/images/aglaonema.jpeg"
   },
   {
     id: "p10",
@@ -107,7 +107,7 @@ const plants = [
     "luz": "Alta",
     "riego": "Moderado",
     "descripcion": "Planta con hojas de colores vibrantes, ideal para interiores.",
-    "img": "/images/begoniahoja.png"
+    "img": "/images/begoniahoja.jpeg"
   },
   {
     id: "p12",
@@ -117,7 +117,7 @@ const plants = [
     "luz": "Alta",
     "riego": "Moderado",
     "descripcion": "Árbol de hojas grandes y brillantes, ideal para interiores amplios.",
-    "img": "/images/higueraviolin.png"
+    "img": "/images/higueraviolin.jpeg"
   },
   {
     id: "p13",
@@ -127,7 +127,7 @@ const plants = [
     "luz": "Media",
     "riego": "Moderado",
     "descripcion": "Planta de hojas grandes, ideal para interiores cálidos.",
-    "img": "/images/difenbaquia.png"
+    "img": "/images/difenbaquia.jpeg"
   },
   {
     id: "p14",
@@ -137,7 +137,7 @@ const plants = [
     "luz": "Alta",
     "riego": "Bajo",
     "descripcion": "Planta suculenta de fácil cuidado, ideal para interiores luminosos.",
-    "img": "/images/plantajade.png"
+    "img": "/images/plantajade.avif"
   },
   {
     id: "p15",
@@ -147,7 +147,7 @@ const plants = [
     "luz": "Alta",
     "riego": "Moderado",
     "descripcion": "Planta con flores moradas, ideal para exteriores soleados.",
-    "img": "/images/petunia.png"
+    "img": "/images/petunia.jpeg"
   },
   {
     id: "p16",
@@ -157,7 +157,7 @@ const plants = [
     "luz": "Media",
     "riego": "Moderado",
     "descripcion": "Planta con hojas en forma de corazón, ideal para interiores luminosos.",
-    "img": "/images/filodendrocorazon.png"
+    "img": "/images/filodendrocorazon.jpeg"
   },
   {
     id: "p17",
@@ -167,7 +167,7 @@ const plants = [
     "luz": "Baja",
     "riego": "Bajo",
     "descripcion": "Planta resistente de bajo mantenimiento, ideal para interiores poco luminosos.",
-    "img": "/images/zamioculca.png"
+    "img": "/images/zamioculca.jpeg"
   },
   {
     id: "p18",
@@ -177,7 +177,7 @@ const plants = [
     "luz": "Baja",
     "riego": "Alto",
     "descripcion": "Planta colorida ideal para interiores húmedos y sombreados.",
-    "img": "/images/balsamo.png"
+    "img": "/images/balsamo.jpeg"
   },
   {
     id: "p19",
@@ -187,7 +187,7 @@ const plants = [
     "luz": "Alta",
     "riego": "Moderado",
     "descripcion": "Planta con hojas coloridas, ideal para interiores luminosos.",
-    "img": "/images/caladio.png"
+    "img": "/images/caladio.jpeg"
   },
   {
     id: "p20",
@@ -197,7 +197,7 @@ const plants = [
     "luz": "Baja",
     "riego": "Moderado",
     "descripcion": "Planta resistente de bajo mantenimiento para interiores.",
-    "img": "/images/malamadre.png"
+    "img": "/images/malamadre.jpeg"
   },
   {
     id: "p21",
@@ -207,7 +207,7 @@ const plants = [
     "luz": "Alta",
     "riego": "Alto",
     "descripcion": "Planta con flores rosadas o rojas, ideal para interiores y exteriores.",
-    "img": "/images/rosalminiatura.png"
+    "img": "/images/rosalminiatura.jpeg"
   },
   {
     id: "p22",
@@ -217,7 +217,7 @@ const plants = [
     "luz": "Alta",
     "riego": "Moderado",
     "descripcion": "Planta resistente, ideal para jardines y exteriores soleados.",
-    "img": "/images/duranta.png"
+    "img": "/images/duranta.jpeg"
   },
   {
     id: "p23",
@@ -227,7 +227,7 @@ const plants = [
     "luz": "Alta",
     "riego": "Moderado",
     "descripcion": "Árbol tropical de crecimiento grande, ideal para espacios amplios.",
-    "img": "/images/higuerabanyan.png"
+    "img": "/images/higuerabanyan.jpg"
   },
   {
     id: "p24",
@@ -237,7 +237,7 @@ const plants = [
     "luz": "Alta",
     "riego": "Moderado",
     "descripcion": "Planta resistente, ideal para exteriores soleados con flores rosadas.",
-    "img": "/images/vincamadagascar.png"
+    "img": "/images/vincamadagascar.jpeg"
   },
   {
     id: "p25",
@@ -247,7 +247,7 @@ const plants = [
     "luz": "Media",
     "riego": "Moderado",
     "descripcion": "Planta apreciada por su follaje decorativo y flores moradas.",
-    "img": "/images/Plectranthus.png"
+    "img": "/images/Plectranthus.jpeg"
   },
   {
     id: "p26",
@@ -257,7 +257,7 @@ const plants = [
         "luz": "Indirecta media o brillante",
         "riego": "Moderado",
         "descripcion": "Necesita humedad muy alta y sustrato muy poroso a base de corteza y musgo.",
-        "img": ""
+        "img": "/images/anturiocorazon.jpeg"
   },
   {
     id: "p27",
@@ -267,8 +267,7 @@ const plants = [
         "luz": "Pleno sol directo",
         "riego": "Muy bajo",
         "descripcion": "Tolera muy bien la sequía. Sustrato muy drenante y arenoso.",
-        "img": ""
-
+        "img": "/images/flordeseda.jpeg"
   },
   {
     id: "p28",
@@ -278,7 +277,7 @@ const plants = [
         "luz": "Indirecta brillante a media",
         "riego": "Moderado",
         "descripcion": "Requiere humedad alta para mantener sus tonos vibrantes.",
-        "img": ""
+         "img": "/images/aglaonemaroja.jpeg"
   },
   {
     id: "p29",
@@ -288,7 +287,7 @@ const plants = [
         "luz": "Indirecta brillante",
         "riego": "Moderado",
         "descripcion": "Humedad muy alta y sustrato aireado con corteza y musgo.",
-        "img": ""
+       "img": "/images/anturioblancorosa.jpeg"
   },
   {
     id: "p30",
@@ -298,7 +297,7 @@ const plants = [
     "luz": "Media",
     "riego": "Moderado",
     "descripcion": "Planta ornamental con hojas grandes y variegadas.",
-    "img": "https://example.com/plant-image.jpg"
+     "img": "/images/cunamoises.jpeg"
   },
   {
     id: "p31",
@@ -307,17 +306,18 @@ const plants = [
     "precio": 15000,
     "luz": "Indirecta brillante",
     "riego": "Moderado",
-    "descripcion": "Crece r\u00e1pido y se cultiva como colgante.",
-    "img": "https://example.com/plant-image.jpg"
+    "descripcion": "Crece rapido y se cultiva como colgante.",
+     "img": "/images/tradescantia.jpeg"
   },
   {
+    id: "p32",
     "nombre": "Gloxinia",
     "tipo": "Planta ornamental",
     "precio": 18000,
     "luz": "Indirecta brillante",
-    "riego": "Inmersi\u00f3n",
+    "riego": "Inmersion",
     "descripcion": "Ideal en luz indirecta brillante. Sensible a manchas en hojas y flores.",
-    "img": "https://example.com/plant-image.jpg"
+     "img": "/images/gloxinia.jpeg",
   },
   {
     id: "p33",
@@ -327,7 +327,7 @@ const plants = [
     "luz": "Media",
     "riego": "Dejar secar el sustrato antes de regar",
     "descripcion": "Planta con hojas redondas, ideal para interiores.",
-    "img": "https://example.com/plant-image.jpg"
+     "img": "/images/peperomiasandia.jpeg"
   },
   {
     id: "p34",
@@ -335,9 +335,9 @@ const plants = [
     "tipo": "Planta ornamental",
     "precio": 14000,
     "luz": "Indirecta media",
-    "riego": "Ligeramente h\u00famedo",
-    "descripcion": "Planta t\u00f3xica, hojas grandes y de color amarillo/blanco.",
-    "img": "https://example.com/plant-image.jpg"
+    "riego": "Ligeramente humedo",
+    "descripcion": "Planta toxica, hojas grandes y de color amarillo/blanco.",
+     "img": "/images/difenbaquia.jpeg"
   },
   {
     id: "p35",
@@ -347,7 +347,7 @@ const plants = [
     "luz": "Indirecta brillante",
     "riego": "Dejar secar entre riegos",
     "descripcion": "Planta colgante que florece con mucha luz.",
-    "img": "https://example.com/plant-image.jpg"
+     "img": "/images/plantacera.png"
   },
   {
     id: "p36",
@@ -357,7 +357,7 @@ const plants = [
     "luz": "Baja a media",
     "riego": "Humedad constante",
     "descripcion": "Planta con frondas finas, ideal para interiores h\u00famedos.",
-    "img": "https://example.com/plant-image.jpg"
+    "img": "/images/helechoboston.jpeg"
   },
   {
     id: "p37",
@@ -367,7 +367,7 @@ const plants = [
     "luz": "Indirecta brillante",
     "riego": "Sumergir la maceta",
     "descripcion": "Planta con frondas grandes, mejor crece sobre troncos.",
-    "img": "https://example.com/plant-image.jpg"
+    "img": "/images/helechocuernoalce.jpeg"
   },
   {
     id: "p38",
@@ -377,7 +377,7 @@ const plants = [
     "luz": "Media",
     "riego": "Humidificaci\u00f3n constante",
     "descripcion": "Planta con frondas colgantes, ideal para interiores.",
-    "img": "https://example.com/plant-image.jpg"
+    "img": "/images/helechoespada.jpeg"
   },
   {
     id: "p39",
@@ -387,7 +387,7 @@ const plants = [
     "luz": "Indirecta brillante",
     "riego": "Uniformemente h\u00famedo",
     "descripcion": "Palmera que tolera media sombra, con alta humedad.",
-    "img": "https://example.com/plant-image.jpg"
+     "img": "/images/palmeraareca.webp"
   },
   {
     id: "p40",
@@ -397,7 +397,7 @@ const plants = [
     "luz": "Indirecta brillante",
     "riego": "Secar el tercio superior del sustrato",
     "descripcion": "Planta robusta que tolera la sequ\u00eda.",
-    "img": "https://example.com/plant-image.jpg"
+     "img": "/images/cheflera.webp"
   },
   {
     id: "p41",
@@ -407,7 +407,7 @@ const plants = [
         "luz": "Indirecta brillante y filtrada",
         "riego": "Constante pero sin encharcar",
         "descripcion": "Requiere humedad alta. Puede entrar en dormancia en invierno.",
-        "img": ""
+        "img": "/images/alocasiacoraza.jpeg"
   },
   {
     id: "p42",
@@ -417,7 +417,7 @@ const plants = [
     "luz": "Indirecta brillante",
     "riego": "Moderado",
     "descripcion": "Planta con hojas grandes y suculentas.",
-    "img": "https://example.com/plant-image.jpg"
+    "img": "/images/sabila.jpeg"
   },
   {
     id: "p43",
@@ -427,7 +427,7 @@ const plants = [
     "luz": "Indirecta brillante",
     "riego": "Secar la capa superior del sustrato",
     "descripcion": "Planta trepadora con hojas en forma de flecha.",
-    "img": "https://example.com/plant-image.jpg"
+    "img": "/images/singonio.jpeg"
   },
 
   {
@@ -438,7 +438,7 @@ const plants = [
     "luz": "Indirecta brillante",
     "riego": "Moderado",
     "descripcion": "Planta con flores rojas, ideal para interiores.",
-    "img": "https://example.com/plant-image.jpg"
+     "img": "/images/anturiospp.jpg"
   },
   {
     id: "p45",
@@ -448,7 +448,7 @@ const plants = [
     "luz": "Alta",
     "riego": "Bajo",
     "descripcion": "Flor de colores vivos, ideal para exteriores soleados.",
-    "img": "https://example.com/plant-image.jpg"
+     "img": "/images/buganvilla.jpeg"
   },
   {
     id: "p46",
@@ -458,7 +458,7 @@ const plants = [
     "luz": "Pleno sol",
     "riego": "Moderado",
     "descripcion": "Arbol que crece bien en exteriores, requiere proteccion contra vientos extremos.",
-    "img": "https://example.com/plant-image.jpg"
+    "img": "/images/arboldevida.jpeg"
   },
   {
     id: "p47",
@@ -468,7 +468,7 @@ const plants = [
     "luz": "Brillante",
     "riego": "Muy bajo",
     "descripcion": "Suculenta que necesita poco riego y luz brillante.",
-    "img": "https://example.com/plant-image.jpg"
+     "img": "/images/sedumlemon.jpeg"
   },
   {
     id: "p48",
@@ -478,7 +478,7 @@ const plants = [
     "luz": "Indirecta brillante",
     "riego": "Moderado",
     "descripcion": "Planta colgante con hojas rosadas y blancas.",
-    "img": "https://example.com/plant-image.jpg"
+     "img": "/images/callisiarepens.webp"
   },
   {
     id: "p49",
@@ -488,7 +488,7 @@ const plants = [
     "luz": "Brillante",
     "riego": "Espaciado",
     "descripcion": "Planta que necesita mucho sol y riego espaciado.",
-    "img": "https://example.com/plant-image.jpg"
+   "img": "/images/arbolabundancia.jpeg"
   },
   {
     id: "p50",
@@ -498,7 +498,7 @@ const plants = [
     "luz": "Brillante",
     "riego": "Moderado",
     "descripcion": "Planta espinosa, con savia toxica. Necesita luz brillante.",
-    "img": "https://example.com/plant-image.jpg"
+     "img": "/images/euforbia.jpg"
   },
   {
     id: "p51",
@@ -508,7 +508,7 @@ const plants = [
     "luz": "Brillante",
     "riego": "Espaciado",
     "descripcion": "Planta que necesita luz directa y riego controlado.",
-    "img": "https://example.com/plant-image.jpg"
+    "img": "/images/rosadesierto.jpeg"
   },
   {
     id: "p52",
@@ -518,7 +518,7 @@ const plants = [
     "luz": "Brillante",
     "riego": "Espaciado",
     "descripcion": "Planta con hojas carnosas, ideal para interiores c\u00e1lidos.",
-    "img": "https://example.com/plant-image.jpg"
+     "img": "/images/echeveria.jpeg"
   },
   {
     id: "p53",
@@ -528,7 +528,7 @@ const plants = [
     "luz": "Sol directo",
     "riego": "Espaciado",
     "descripcion": "Planta medicinal que necesita sol directo y riego espaciado.",
-    "img": "https://example.com/plant-image.jpg"
+     "img": "/images/aloevera.jpeg"
   },
   {
     id: "p54",
@@ -538,7 +538,7 @@ const plants = [
     "luz": "Indirecta brillante",
     "riego": "Muy bajo",
     "descripcion": "Planta muy resistente, sensible al exceso de agua y a la pudrición.",
-    "img": ""
+     "img": "/images/lenguatigre.webp"
   }
   ,
   {
@@ -549,7 +549,7 @@ const plants = [
     "luz": "Indirecta brillante",
     "riego": "Muy bajo",
     "descripcion": "Cactus peque\u00f1o y espinoso ideal para interiores luminosos.",
-    "img": "https://example.com/plant-image.jpg"
+     "img": "/images/cactuscoreano.jpeg"
   },
   {
     id: "p56",
@@ -559,17 +559,17 @@ const plants = [
     "luz": "Brillante",
     "riego": "Muy bajo",
     "descripcion": "Planta resistente que requiere sol directo y riego m\u00ednimo.",
-    "img": "https://example.com/plant-image.jpg"
+     "img": "/images/reinavictoria.jpg"
   },
   {
     id: "p56",
-    "nombre": "Calatea Pavo Real o Calathea Ornata",
+    "nombre": "Calatea Pavo Real",
         "tipo": "Planta ornamental",
         "precio": null,
         "luz": "Indirecta media o brillante",
         "riego": "Mantener ligeramente húmedo",
         "descripcion": "Necesita humedad alta para evitar puntas secas.",
-        "img": ""
+         "img": "/images/calateapavo.png"
   },
 ];
 

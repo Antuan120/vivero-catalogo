@@ -8,7 +8,6 @@ export default function SortSelect({ value, onChange }) {
       <option value="relevancia">Orden: Relevancia</option>
       <option value="precioAsc">Precio ↑</option>
       <option value="precioDesc">Precio ↓</option>
-      <option value="stock">Stock</option>
     </select>
   );
 }

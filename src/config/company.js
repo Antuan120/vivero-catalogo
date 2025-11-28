@@ -1,7 +1,7 @@
 export const COMPANY = {
-  name: "Vivero La Hoja UFPS",
+  name: "Conectados con lo verde",
   whatsapp: "573142475575",
-  email: "ventasUfps@viverolahojaUFPS.com",
+  email: "ConectadosConLoVerde@gmail.com",
   address: "Calle 123 #45-67, Cucúta, Colombia",
   hours: "Lun–Sáb 9:00–18:00",
 };
