@@ -11,8 +11,12 @@ export default function Cart() {
       <div className="mx-auto max-w-6xl p-6">
         <div className="card p-8 text-center">
           <h2 className="text-xl font-semibold">Tu carrito está vacío</h2>
-          <p className="mt-2 text-slate-600">Explora el catálogo y agrega tus plantas favoritas.</p>
-          <a href="/catalogo" className="btn-primary mt-4">Ir al catálogo</a>
+          <p className="mt-2 text-slate-600">
+            Explora el catálogo y agrega tus plantas favoritas.
+          </p>
+          <a href="/catalogo" className="btn-primary mt-4">
+            Ir al catálogo
+          </a>
         </div>
       </div>
     );
@@ -30,38 +34,71 @@ export default function Cart() {
       <div className="card p-4 overflow-hidden">
         <div className="flex items-center justify-between">
           <h2 className="text-lg font-semibold">Carrito ({totalQty})</h2>
-          <button className="chip" onClick={clear}>Vaciar</button>
+          <button className="chip" onClick={clear}>
+            Vaciar
+          </button>
         </div>
         <ul className="mt-4 divide-y divide-slate-200">
           {items.map((it) => {
-            const max = Number(it.stock) || 0; // stock original de la planta
-            const setQtySafe = (q) => setQty(it.id, Math.max(1, Math.min(max, q)));
+            const hasStockLimit = it.stock != null;
+            const max = hasStockLimit ? Number(it.stock) || 0 : Infinity;
+
+            const setQtySafe = (q) => {
+              const base = Math.max(1, q);
+              const finalQty = hasStockLimit ? Math.min(max, base) : base;
+              setQty(it.id, finalQty);
+            };
 
             return (
               <li key={it.id} className="py-3 flex gap-3 items-center">
-                <img src={it.img} alt={it.nombre} className="h-16 w-16 rounded-lg object-cover ring-1 ring-slate-200" />
+                <img
+                  src={it.img}
+                  alt={it.nombre}
+                  className="h-16 w-16 rounded-lg object-cover ring-1 ring-slate-200"
+                />
                 <div className="flex-1">
                   <div className="font-medium">{it.nombre}</div>
                   <div className="text-sm text-slate-600">
-                    {price(it.precio)} c/u · Subtotal: {price(it.precio * it.qty)}
+                    {price(it.precio)} c/u · Subtotal:{" "}
+                    {price(it.precio * it.qty)}
                   </div>
-                  <div className="text-xs text-slate-500">Disponible: {max}</div>
+                  <div className="text-xs text-slate-500">
+                    Disponible:{" "}
+                    {hasStockLimit ? max : "Disponible"}
+                  </div>
                 </div>
 
                 <div className="flex items-center gap-2">
-                  <button className="chip" onClick={() => setQtySafe(it.qty - 1)} disabled={it.qty <= 1}>-</button>
+                  <button
+                    className="chip"
+                    onClick={() => setQtySafe(it.qty - 1)}
+                    disabled={it.qty <= 1}
+                  >
+                    -
+                  </button>
                   <input
                     className="w-12 text-center rounded-lg border border-slate-300 px-2 py-1"
                     type="number"
                     min="1"
-                    max={max}
+                    max={hasStockLimit ? max : undefined}
                     value={it.qty}
                     onChange={(e) => setQtySafe(Number(e.target.value))}
                   />
-                  <button className="chip" onClick={() => setQtySafe(it.qty + 1)} disabled={it.qty >= max}>+</button>
+                  <button
+                    className="chip"
+                    onClick={() => setQtySafe(it.qty + 1)}
+                    disabled={hasStockLimit && it.qty >= max}
+                  >
+                    +
+                  </button>
                 </div>
 
-                <button className="chip" onClick={() => removeItem(it.id)}>Quitar</button>
+                <button
+                  className="chip"
+                  onClick={() => removeItem(it.id)}
+                >
+                  Quitar
+                </button>
               </li>
             );
           })}
@@ -76,7 +113,12 @@ export default function Cart() {
           <span className="text-xl font-bold">{price(totalPrice)}</span>
         </div>
 
-        <a href={wa} target="_blank" rel="noreferrer" className="btn-primary mt-4 w-full text-center">
+        <a
+          href={wa}
+          target="_blank"
+          rel="noreferrer"
+          className="btn-primary mt-4 w-full text-center"
+        >
           Enviar pedido por WhatsApp
         </a>
 

@@ -5,12 +5,14 @@ import PlantDetail from "./pages/PlantDetail.jsx";
 import Cart from "./pages/Cart.jsx";
 import Contact from "./pages/Contact.jsx";
 import { CartProvider, useCart } from "./context/CartContext.jsx";
+import { useScrollMemory } from "./hooks/useScrollMemory";
+
 
 function Footer() {
   return (
     <footer className="border-t border-slate-200 bg-white">
       <div className="mx-auto max-w-6xl px-4 py-6 text-sm text-slate-500">
-        © {new Date().getFullYear()} By Antuan Peñaranda.
+        © {new Date().getFullYear()} By Antuan Peñaranda. Ing en sistemas.
       </div>
     </footer>
   );
@@ -32,6 +34,7 @@ function CartBadge() {
 }
 
 export default function App() {
+  useScrollMemory();
   return (
     <CartProvider>
       <div className="min-h-screen">

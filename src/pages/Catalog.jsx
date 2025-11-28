@@ -10,15 +10,28 @@ import Hero from "../components/Hero.jsx";
 
 export default function Catalog() {
   const [preview, setPreview] = useState(null);
-  const { q, setQ, tipos, seleccionTipos, toggleTipo, clearTipos, orden, setOrden, resultados } =
-    useCatalog(plants);
+  const {
+    q,
+    setQ,
+    tipos,
+    seleccionTipos,
+    toggleTipo,
+    clearTipos,
+    orden,
+    setOrden,
+    resultados,
+  } = useCatalog(plants);
 
   return (
+
+    
     <>
+    
       <Hero />
 
-      <section className="mx-auto max-w-6xl px-4 py-4 -mt-8">
-        <div className="card p-4 md:p-5">
+      {/* Caja del buscador que se solapa suavemente con el hero */}
+      <section className="relative z-10 mx-auto max-w-6xl px-4 -mt-16 md:-mt-20">
+        <div className="card p-4 md:p-5 shadow-lg">
           <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
             <SearchBar value={q} onChange={setQ} />
             <SortSelect value={orden} onChange={setOrden} />
@@ -48,7 +61,11 @@ export default function Catalog() {
         )}
       </main>
 
-      <PlantModal open={!!preview} planta={preview} onClose={() => setPreview(null)} />
+      <PlantModal
+        open={!!preview}
+        planta={preview}
+        onClose={() => setPreview(null)}
+      />
     </>
   );
 }
