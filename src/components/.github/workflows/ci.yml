@@ -1,0 +1,36 @@
+name: CI - Control de Calidad Vivero
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  calidad-y-construccion:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. Descarga el código del repositorio en el servidor virtual
+    - name: Descargar código fuente
+      uses: actions/checkout@v4
+
+    # 2. Configura el entorno de Node.js en el servidor
+    - name: Configurar Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: 18 # Puedes cambiarlo a la versión de Node que uses (18, 20, etc.)
+        cache: 'npm'
+
+    # 3. Instala las dependencias del proyecto (incluyendo React, iconos, etc.)
+    - name: Instalar dependencias
+      run: npm install
+
+    # 4. Filtro de Calidad 1: Verifica el linter si está configurado (opcional)
+    - name: Validar Estilo de Código (Lint)
+      run: npm run lint --if-present
+
+    # 5. Filtro de Calidad 2 (El Quality Gate Principal): Intenta compilar la app
+    # Si hay un error de importación, una etiqueta mal cerrada o código roto, este paso fallará.
+    - name: Compilar Proyecto (Build)
+      run: npm run build
