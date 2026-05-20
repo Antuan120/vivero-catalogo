@@ -8,7 +8,6 @@
             alt="Fondo de hojas"
             className="h-full w-full object-cover"
           />
-          {/* Degradado que se funde con el fondo blanco y conecta con el buscador */}
           <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-white/60 to-white" />
         </div>
 
