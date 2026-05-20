@@ -6,7 +6,7 @@
           <img
             src="/images/imagenHero.png"
             alt="Fondo de hojas"
-            classNme="h-full w-full object-cover"
+            className="h-full w-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-white/60 to-white" />
         </div>
