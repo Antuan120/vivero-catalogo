@@ -1,0 +1,24 @@
+name: CI - Filtro de Calidad Vivero
+
+on:
+  push:
+    branches: [ main, master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Descargar el código
+      uses: actions/checkout@v4
+
+    - name: Instalar Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: 18
+
+    - name: Instalar dependencias
+      run: npm install
+
+    - name: Compilar y validar el código
+      run: npm run build
