@@ -3,7 +3,7 @@ import SearchBar from "../components/SearchBar.jsx";
 import SortSelect from "../components/SortSelect.jsx";
 import TypeFilters from "../components/TypeFilters.jsx";
 import PlantCard from "../components/PlantCard.jsx";
-import PlantModal from "../components/PlantModal.jsx";
+import PlantModales from "../components/PlantModal.jsx";
 import useCatalog from "../hooks/useCatalog.js";
 import plants from "../data/plants.js";
 import Hero from "../components/Hero.jsx";
