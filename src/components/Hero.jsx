@@ -1,7 +1,7 @@
   export default function Hero() {
     return (
       <section className="relative overflow-hidden bg-white">
-        {/* Imagen de fondo */}
+        
         <div className="absolute inset-0">
           <img
             src="/images/imagenHero.png"

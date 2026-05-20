@@ -29,7 +29,6 @@ export default function Catalog() {
     
       <Hero />
 
-      {/* Caja del buscador que se solapa suavemente con el hero */}
       <section className="relative z-10 mx-auto max-w-6xl px-4 -mt-16 md:-mt-20">
         <div className="card p-4 md:p-5 shadow-lg">
           <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
